@@ -1,0 +1,9 @@
+# Optional local fallback. Prefer environment variables for secrets.
+db.host=YOUR_AIVEN_HOST
+db.port=YOUR_AIVEN_PORT
+db.name=java_pbl_db
+db.user=YOUR_AIVEN_USERNAME
+# Do not put a real password in this file.
+db.sslMode=VERIFY_CA
+db.trustStore=certs/aiven-truststore.jks
+db.trustStorePassword=changeit
